@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <button id="btn" item='begin'>开始</button>
+ 
+    <div class="showScore">
+        <span>当前分数:</span>
+        <span id="score">0</span>
+    </div>
+    <div id="record">
+        <h3>记录排行榜</h3>
+        <dl class="list">
+            <dt>
+               <div>排名</div>
+               <div>分数</div>
+               <div>时间</div>
+            </dt>
+            <dd >
+              <table id='table'>
+       
+              </table>
+            </dd>
+        </dl>
+    </div>
+    <script src="./src/jsUtil.js"></script>
+    <script src="./src/varinit.js"></script>
+    <script src="./src/SquareFactory.js"></script>
+    <script src="./src/Ground.js"></script>
+    <script src="./src/Snake.js"></script>
+    <script src="./src/Food.js"></script>
+    <script src="./src/updateList.js"></script>
+    <script src="./src/Game.js"></script>
+</body>
+</html>
